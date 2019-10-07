@@ -1,6 +1,6 @@
-# personalexpenses
+# personal expenses app
 
-Personal Expenses app
+made with flutter
 
 ## Getting Started
 
