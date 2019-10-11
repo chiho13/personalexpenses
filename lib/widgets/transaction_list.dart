@@ -12,6 +12,7 @@ class TransactionList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 300,
+      margin: EdgeInsets.only(left: 20, right: 20),
       child: transactions.isEmpty
           ? Column(
               children: <Widget>[
@@ -32,6 +33,8 @@ class TransactionList extends StatelessWidget {
           : ListView.builder(
               itemBuilder: (ctx, index) {
                 return Card(
+                  elevation: 5,
+                  margin: EdgeInsets.only(top: 20),
                   child: Row(
                     children: <Widget>[
                       Container(
