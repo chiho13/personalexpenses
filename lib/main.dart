@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
+                  button: TextStyle(color: Colors.white)
                 ),
         primaryTextTheme:
             ThemeData.light().primaryTextTheme.apply(fontFamily: 'Quicksand'),
